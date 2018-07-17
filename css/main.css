@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Overpass');
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Overpass', sans-serif;
+*/
+
+body {
+  max-width: 90vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+header {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+header img {
+  max-width: 10vw;
+}
+
+nav a {
+  background-color: steelblue;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#hero p {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  background-color: steelblue;
+  height: 15em;
+}
+
+main {
+  background-color: lightsteelblue;
+}
+
+.info {
+  border: solid 1px black;
+}
+
+.info img {
+  width: 10vw;
+}
+
+.html {
+  width: 25vw;
+}
+.css {
+  width: 25vw;
+}
+.js {
+  width: 25vw;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+}
+
+.attribution {
+  text-align: right;
+}
+
+footer {
+  background-color: steelblue;
+}
+
+footer a {
+  display: block;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  text-decoration: none;
+}
